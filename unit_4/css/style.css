@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body, html {
+	height: 100%;
+}
+.hero {
+	background-image: url(https://s19.postimg.org/3ssv2kxw3/hero.png);
+	height: 60%;
+	margin-top: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	color: white;
+	text-align: center;
+
+}
+
+h1 {
+	position: center;
+	position: relative;
+	font-family: 'Rochester', cursive;
+	font-size: 80px;
+	padding-top:20px;
+
+}
+
+h2 {
+	font-family: Arial, Helvetica, San-Serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.about {
+	text-align: left;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 10%;
+	color: #404040;
+	font-family: Arial, Helvetica, San-Serif;
+}
+.slogan {
+	font-family: Arial, Helvetica, San-Serif;
+	font-weight: 20px;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.contact {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: Arial, Helvetica, San-Serif;
+}
+.row {
+	/*column-count: 4;*/
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	list-style-type: 
+}
+.mid-image{
+	margin-left:2%;
+	margin-right:2%;
+	display: inline-block;
+	vertical-align: top;
+}
+.col-1{
+	/*margin-top: 10px;*/
+}
+.center{
+	padding-top:10%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+	background-color: gray;
+	height: 80px;
+
+
+}
+.nav ul li {
+	list-style-type: none;
+	width: 19%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, San-Serif;
+	line-height: 80px;
+	display: block;
+}
+li a:hover {
+	background-color: #404040;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+ul {
+	margin-left: 50px;
+}
+
+	.shop-bras {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	text-align: right;
+	height: 80%;
+
+}
+
+	.shop-tanks {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	text-align: right;
+	height: 80%;
+	}
+
+		.shop-leggings {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	text-align: right;
+	height: 80%;
+	}
+
+		.shop-jackets {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10%;
+	text-align: right;
+	height: 80%;
+	}
+
+@media only screen and (max-width: 1640px){
+	.row {
+		margin-top: 30px;
+	}
+	.mid-image{
+		width: 24%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+}
